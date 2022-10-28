@@ -15,10 +15,127 @@ body{
     font-size: 20px;
     font-weight:400;
     display:inline-block;
-    padding:40px 30px;
+    padding:20px 30px;
    
 }
 .navigation ul li a{
     text-decoration:none;
     color:black;
+}
+section{
+    margin:60px 0px;
+    overflow: hidden;
+}
+/*self introduce area*/
+.self-area{
+    margin:40px 0px;
+}
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%
+}
+.half-width img{
+    width:100%;
+}
+.half-width h1{
+    font-size:60px;
+    text-transform: uppercase;
+}
+.title-color{
+    color: tomato;
+}
+.link-color{
+    text-decoration:none;
+    background-color: tomato;
+    color:white;
+    padding:20px 30px;
+    border-radius:10px;
+    text-transform: uppercase;
+}
+.half-width p{
+    margin-bottom:50px;
+    font-size: 20px;
+}
+
+/*lastest project area */
+.project-details{
+    height:600px;
+    background-color:#F8F9FC;
+    padding:30px 0px;
+}
+
+.single-project{
+    width:25%;
+    float:left;
+    margin-left:2%;
+    background-color:white;
+    padding:20px;
+    border-radius:10px;
+}
+.single-project img{
+    width:100%;
+}
+.project-details h1{
+    font-size:40px;
+    text-align:center;
+    text-transform: uppercase;
+}
+.project-details span{
+    color:tomato;
+}
+#left-margin{
+    margin-left:100px;
+}
+.single-project p{
+    font-size:12px;
+}
+.workiquiry-tab{
+    width:70%;
+    margin: 0 auto;
+    position:relative;
+    z-index:-1;
+}
+.workiquiry-tab img{
+    width:100%
+}
+.work-title{
+    width:90%;
+    position:absolute;
+    z-index:1;
+    top:30%;
+    left:5%;
+}
+.work-title h1{
+    font-size:50px;
+    text-transform: uppercase;
+    float:left;
+    color:white;
+}
+.work-title a{
+    margin-top:45px;
+    text-decoration:none;
+    font-size:12px;
+    float:right;
+}
+.stayconnected-are{
+    text-align:center;
+}
+.stayconnected-are a{
+    text-decoration: none;
+    font-size:30px;
+    color:black;
+}
+.stayconnected-are ul{
+    margin:0;
+    padding:0;
+}
+.stayconnected-are ul li{
+    list-style-type:none;
+    display:inline;
+}
+.stayconnected-are ul li a img{
+    width:25px;
+    padding:10px;
 }
